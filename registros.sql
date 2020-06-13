@@ -20,5 +20,5 @@ update libros set descripcion = 'nueva cambio', ventas = '190'  where titulo = '
 delete from libros where titulo = 'TDA';
 
 ALTER TABLE libros add foreign key(autor_id) references autores(autor_id) ON DELETE CASCADE;
-
+--eliminar tablas
 TRUNCATE TABLE libros;
