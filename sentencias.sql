@@ -31,6 +31,7 @@ INSERT INTO libros( autor_id, titulo, descripcion, paginas, fecha_publicacion, v
 VALUES
 ( '1', 'cazadores de sombras', 'libro equis', '390',' 2017-10-30',44),
 ( '2', 'after', 'libro equis', '390',' 2017-10-30',44),
+
 ( '2', 'tda', 'libro equis', '390',' 2019-10-30',44)
 ;
 
