@@ -35,4 +35,4 @@ VALUES
 ;
 
 SELECT * FROM autores;
-
+SELECT * FROM libros;
