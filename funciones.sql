@@ -71,5 +71,14 @@ BEGIN
 END//
 DELIMITER ;
 
+DELIMITER //
+create FUNCTION obtener_ventas()
+returns int
+BEGIN
+ SET @paginas = (SELECT (ROUND( RAND() * 100) *6));
+ return @paginas;
+END//
+DELIMITER ;
 -- que cada libro tenga paginas random
 update libros SET paginas = obtener_paginas();
+update libros SET ventas = obtener_ventas();
